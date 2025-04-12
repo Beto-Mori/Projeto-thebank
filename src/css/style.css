@@ -1,0 +1,59 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Public Sana", sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  margin-left: 5px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu li a {
+  padding: 1rem 0.5rem;
+  transition: 0.3s ease-in-out;
+  margin: 1.5rem;
+  font-size: 1.7rem;
+}
+
+.menu li a:hover {
+    background-color: #5bc241;
+    color: #ffffff;
+}
+
+.menu li a.btn{
+    background-color: #5bc241;
+    color: #ffffff;
+    margin-left: 1rem;
+    border-radius: 10%;
+    transition: 0.2s ease-in-out;
+    padding: 10px 20px;
+}
+
+.menu li a.btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10%;
+}
+
